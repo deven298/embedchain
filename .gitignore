@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/embedchain/node_modules/*
+/embedchain/.pnp
+/embedchain/.pnp.js
+
+# testing
+/embedchain/coverage
+
+# next.js
+/embedchain/.next/
+/embedchain/out/
+
+# production
+/embedchain/build
+
+# misc
+*.DS_Store
+*.pem
+
+# debug
+/embedchain/npm-debug.log*
+/embedchain/yarn-debug.log*
+/embedchain/yarn-error.log*
+
+# local env files
+/embedchain/.env*.local
+
+# vercel
+/embedchain/.vercel
+
+# typescript
+/embedchain/*.tsbuildinfo
+/embedchain/next-env.d.ts
+
+
+# venv
+/ec/*
+
+# Django #
+/backend/*.log
+/backend/*.pot
+/backend/*.pyc
+/backend/__pycache__
+/backend/db.sqlite3
+/backend/media
+
+# Backup files # 
+/backend/*.bak
+
+# Python # 
+/backend/*.py[cod] 
+/backend/*$py.class
+
+# Visual Studio Code # 
+/backend/.vscode/* 
+/backend/!.vscode/settings.json 
+/backend/!.vscode/tasks.json 
+/backend/!.vscode/launch.json 
+/backend/!.vscode/extensions.json 
+/backend/.history
